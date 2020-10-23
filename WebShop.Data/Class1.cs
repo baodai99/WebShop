@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebShop.Common
+namespace WebShop.Data
 {
     public class Class1
     {
