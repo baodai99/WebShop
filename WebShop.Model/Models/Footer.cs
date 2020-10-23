@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 namespace WebShop.Model.Models
 {
     [Table("Footer")]
-    public class Footer
+    public class Footer 
     {
         [Key]
+        [MaxLength(50)]
         public string ID { get; set; }
         [Required]
         public string content { get; set; }
