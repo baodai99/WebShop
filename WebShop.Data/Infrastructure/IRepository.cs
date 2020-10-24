@@ -37,6 +37,6 @@ namespace WebShop.Data.Infrastructure
         int Count(Expression<Func<T, bool>> where);
 
         bool CheckContains(Expression<Func<T, bool>> predicate);
-        void DeleteMulti(Expression<Func<T, bool>> where);
+     
     }
 }
