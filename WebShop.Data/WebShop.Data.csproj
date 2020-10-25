@@ -58,6 +58,14 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
+    <Compile Include="Migrations\202010251930430_InitialDB.cs" />
+    <Compile Include="Migrations\202010251930430_InitialDB.designer.cs">
+      <DependentUpon>202010251930430_InitialDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010251942102_initialDB1.cs" />
+    <Compile Include="Migrations\202010251942102_initialDB1.designer.cs">
+      <DependentUpon>202010251942102_initialDB1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\FooterRepository.cs" />
@@ -79,7 +87,6 @@
     <Compile Include="Repositories\VisitorStatisticRepository.cs" />
     <Compile Include="WebShopDbContext.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
@@ -93,6 +100,14 @@
       <Project>{2cdf1b70-b32c-4fcc-bb32-882e2b998cd3}</Project>
       <Name>WebShop.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202010251930430_InitialDB.resx">
+      <DependentUpon>202010251930430_InitialDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010251942102_initialDB1.resx">
+      <DependentUpon>202010251942102_initialDB1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
