@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Common", "WebShop.Common\WebShop.Common.csproj", "{25EF3569-F232-4137-9CB7-94713C050B20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Common", "..\git\WebShop.Common\WebShop.Common.csproj", "{25EF3569-F232-4137-9CB7-94713C050B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Data", "WebShop.Data\WebShop.Data.csproj", "{3254BD17-6BD3-4CCB-943F-812A99FB65E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Data", "..\git\WebShop.Data\WebShop.Data.csproj", "{3254BD17-6BD3-4CCB-943F-812A99FB65E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Model", "WebShop.Model\WebShop.Model.csproj", "{2CDF1B70-B32C-4FCC-BB32-882E2B998CD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Model", "..\git\WebShop.Model\WebShop.Model.csproj", "{2CDF1B70-B32C-4FCC-BB32-882E2B998CD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Service", "WebShop.Service\WebShop.Service.csproj", "{D0128027-7386-460E-B865-2B2E3FA87C96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Service", "..\git\WebShop.Service\WebShop.Service.csproj", "{D0128027-7386-460E-B865-2B2E3FA87C96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Unitest", "WebShop.Unitest\WebShop.Unitest.csproj", "{2258E41B-2EC5-4592-8DD1-A1CBA5D3CC64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Unitest", "..\git\WebShop.Unitest\WebShop.Unitest.csproj", "{2258E41B-2EC5-4592-8DD1-A1CBA5D3CC64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Web", "WebShop.Web\WebShop.Web.csproj", "{16C54DEA-0884-4857-8B1C-74F980316731}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Web", "..\git\WebShop.Web\WebShop.Web.csproj", "{16C54DEA-0884-4857-8B1C-74F980316731}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
